@@ -3,8 +3,6 @@ import SearchBar from "./SearchBar";
 import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 
-const KEY = "AIzaSyBLbb8DAJ6eaz0By47QZrKmx2mjiSslP-g";
-
 class App extends React.Component {
   state = { videos: [] };
 

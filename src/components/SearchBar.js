@@ -13,10 +13,10 @@ class SearchBar extends React.Component {
     this.props.onFormSubmit(this.state.term);
     // Ensure that we make call the callback from parent component
   };
-
   render() {
     return (
       <div className="search-bar ui segment">
+        <h1>Youtube Clone App</h1>
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <label>Video Search</label>
